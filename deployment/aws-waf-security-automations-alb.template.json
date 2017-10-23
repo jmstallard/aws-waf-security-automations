@@ -125,7 +125,7 @@
    "BucketName": {
       "Type": "String",
       "Default": "myBucket",
-      "Description": "Name of S3 bucket containint the Lambda zip files."
+      "Description": "Name of S3 bucket containing the Lambda zip files."
     },
     "WAFBlockPeriod": {
       "Type": "Number",
