@@ -839,7 +839,7 @@
         "Code": {
           "S3Bucket": {
             "Fn::Join": ["-", [
-              "Ref"" "BucketNam}, {
+              {"Ref": "BucketName"}, {
                 "Ref": "AWS::Region"
               }
             ]]
