@@ -9,7 +9,7 @@ cd deployment
 Create a source-bucket-base-name  as the base name for the S3 bucket location where the template will source the Lambda code from. 
 The template will append '-[region_name]' to this value.
 The template will then expect the source code to be located in the solutions-[region_name] bucket
-Enter value of bucket name (without -region_name suffix) in template paramter BucketName.
+Enter value of bucket name (without -region_name suffix) in template parameter BucketName.
 
 ## CloudFormation Templates (in yaml & json formats):
 Located in deployment 
